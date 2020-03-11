@@ -1924,7 +1924,7 @@ ul.footer-gallery li:nth-child(2) {
 /* 					    19. MOBILE DEVICES                    */
 /* ========================================================== */
 
-@media handheld, only screen and (max-width: 800px) {
+@media handheld, only screen and (max-width: 991px) {
 	.footer{
 		text-align:center;
 	}
