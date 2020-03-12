@@ -1819,18 +1819,6 @@ p.contact_success_box{
 	font-style:italic;
 	padding:20px 20px;
 }
-
-/* ========================================================== */
-/* 		    Background Images - max-width: 1024px             */
-/* ========================================================== */
-
-@media only screen and (max-width: 1024px) {
-	.image-section, .featured-menu-section, .home-menu-section, .first-menu-section, .menu-hero-section, .about-hero-section, .gallery-hero-section, .reservation-hero-section, .hero-gallery-section, .contact-hero-section, .contact2-hero-section, .footer {
-		background-attachment: scroll!important;
-		background-size: cover!important;
-		background-repeat: no-repeat!important;
-	}
-}
 /********New CSS***************/
 
 .container {
@@ -1920,6 +1908,18 @@ ul.footer-gallery li:nth-child(2) {
 		padding-left: 30px;
 	}
 }
+/* ========================================================== */
+/* 		    Background Images - max-width: 1024px             */
+/* ========================================================== */
+
+@media only screen and (max-width: 1024px) {
+	.image-section, .featured-menu-section, .home-menu-section, .first-menu-section, .menu-hero-section, .about-hero-section, .gallery-hero-section, .reservation-hero-section, .hero-gallery-section, .contact-hero-section, .contact2-hero-section, .footer {
+		background-attachment: scroll!important;
+		background-size: cover!important;
+		background-repeat: no-repeat!important;
+	}
+}
+
 /* ========================================================== */
 /* 					    19. MOBILE DEVICES                    */
 /* ========================================================== */
