@@ -1240,6 +1240,7 @@ ul.footer-list li a:hover{
 	margin: 0 auto;
 	margin-top:15px;
 	padding: 220px 0 80px 0;
+	min-height: 600px;
 }
 
 .about-hero-section .image-overlay{
@@ -1261,6 +1262,7 @@ ul.footer-list li a:hover{
 	margin: 0 auto;
 	margin-top:15px;
 	padding: 220px 0 80px 0;
+	min-height: 600px;
 }
 
 .gallery-hero-section .image-overlay{
@@ -1732,7 +1734,7 @@ p.register_success_box{
 	width:100%;
 	max-width:960px;
 	text-align:center;
-	padding:30px 0 10px 0;
+	padding:25px 0 0px 0;
 }
 
 input.contact-input{
@@ -1921,7 +1923,7 @@ ul.footer-gallery li:nth-child(2) {
 	  padding-left: 0;
 	}
   }
-@media (max-width: 1200px) {
+@media (max-width: 1230px) {
 	.navbar-default{
 		padding: 18px 0px;
 	}
@@ -1947,7 +1949,10 @@ ul.footer-gallery li:nth-child(2) {
 /* ========================================================== */
 
 @media handheld, only screen and (max-width: 991px) {
-	
+	.img-margin{
+		margin-top:30px;
+		margin-bottom: 30px;
+	}
 	.footer{
 		text-align:center;
 	}
@@ -1986,6 +1991,10 @@ ul.footer-gallery li:nth-child(2) {
 	}
 	div#navbar-collapse-02 {
 		padding-top: 25px;
+	}
+	.no-pad{
+		padding-left: 0;
+		padding-right: 0;
 	}
 }
 
